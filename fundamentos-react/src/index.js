@@ -11,7 +11,7 @@ ReactDOM.render(
        <Primeiro></Primeiro>
        <ComParametro 
             titulo="Situação do aluno" 
-            aluno="Adriel" nota={10}/>
+            aluno="Adriel" nota={8.7}/>
     </div>
     , el
 )
