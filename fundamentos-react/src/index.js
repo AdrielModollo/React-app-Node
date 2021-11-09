@@ -4,7 +4,7 @@ import React from 'react' //Faz a conversão de html para Javascript
 
 import Primeiro from './components/basicos/Primeiro'
 import ComParametro from './components/basicos/ComParametro'
-import Fragmento from './components/basico/Fragmento'
+import Fragmento from './components/basicos/Fragmento'
 
 const el = document.getElementById('root') // Recupera o id root em nosso index.js dentro da div
 ReactDOM.render(
@@ -13,7 +13,7 @@ ReactDOM.render(
        <ComParametro 
             titulo="Situação do aluno" 
             aluno="Adriel" nota={8.7}/>
-        <Fragmento></Fragmento>
+        <Fragmento />
     </div>
     , el
 )
