@@ -1,3 +1,4 @@
 import ReactDOM from 'react-dom' //Renderiza algo na tela
 
-ReactDOM.render("Olá React!!!")
+const el = document.getElementById('root') // Recupera o id root em nosso index.js dentro da div
+ReactDOM.render("Olá React!!!", el)
