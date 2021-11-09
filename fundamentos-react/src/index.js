@@ -10,8 +10,8 @@ ReactDOM.render(
     <div id="app"> 
        <Primeiro></Primeiro>
        <ComParametro 
-            titulo="Segundo Componente" 
-            subtitulo="Muito massa!"/>
+            titulo="Situação do aluno" 
+            aluno="Adriel" nota={10}/>
     </div>
     , el
 )
