@@ -6,10 +6,9 @@ import Fragmento from './components/basicos/Fragmento'
 
 
 
-export default (props) => { //Função Arrow
-    return (
+export default _ => 
         <div id="app"> 
-            <h1> Fundamentos React (Arrow)</h1>
+            <h1> Fundamentos React </h1>
             <Fragmento />
             <ComParametro 
                     titulo="Situação do aluno" 
@@ -17,5 +16,4 @@ export default (props) => { //Função Arrow
             />
             <Primeiro></Primeiro>
         </div>
-    );
-}
+ 
