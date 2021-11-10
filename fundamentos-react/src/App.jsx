@@ -11,9 +11,9 @@ import Fragmento from './components/basicos/Fragmento'
 export default _ =>
     <div id="app">
         <h1> Fundamentos React </h1>
-        <Card titulo="Exemplo de card"/> 
-
-        <Aleatorio min={1} max={60} />
+        <Card titulo="Desafio Aleatório"> 
+            <Aleatorio min={1} max={60} />
+        </Card>
         <Fragmento />
         <ComParametro
             titulo="Situação do aluno"
