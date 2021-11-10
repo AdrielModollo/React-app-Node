@@ -1,4 +1,10 @@
 body {
     background-color: gray;
     color:white;
+    font-family: 'Red Hat Mono', monospace;
+    text-align:center;
+}
+
+h1,h2, h3{
+    font-weight: 200;
 }
