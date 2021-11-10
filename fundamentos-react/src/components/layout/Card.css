@@ -3,6 +3,7 @@
     border-radius: 5%;
     overflow: hidden;
     border: 5% red;
+    margin: 5%;
 }
 
 .Card .Title {
