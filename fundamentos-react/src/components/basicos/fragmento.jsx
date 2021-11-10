@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Fragmento(props){
+export default function Fragmento(props) {
     return (
         //Quando envolvido com div solucionamos o problema, mas quando passamos o elemento sem envolver o conteudo ocorre o erro
         //React.Fragment outra forma de soluciona o problema
