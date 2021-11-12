@@ -5,8 +5,8 @@ export default props => {
 
   return (
       <div>
-          <FamiliaMembro nome="Adriel" sobrenome="Modollo"/>
-          <FamiliaMembro nome="Marina" sobrenome="Modollo"/>
+          <FamiliaMembro nome="Adriel" sobrenome={props.sobrenome}/>
+          <FamiliaMembro nome="Marina" sobrenome={props.sobrenome}/>
       </div>
   )
 };
