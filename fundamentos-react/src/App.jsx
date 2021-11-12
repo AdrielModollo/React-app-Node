@@ -14,7 +14,7 @@ export default () =>
         <h1> Fundamentos React </h1>
 
         <div className="Cards">
-            <Card titulo="Desafio Aleatório">
+            <Card titulo="Desafio Aleatório" color="#000000">
                 <Aleatorio min={1} max={60} />
             </Card>
 

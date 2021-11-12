@@ -1,8 +1,7 @@
 .Card {
-    background-color: red;
     border-radius: 5%;
     overflow: hidden;
-    border: 5% red;
+    border: 5% solid;
     margin: 5%;
     display: flex;
     flex-direction: column;
