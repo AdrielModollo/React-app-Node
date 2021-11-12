@@ -18,18 +18,18 @@ export default () =>
                 <Aleatorio min={1} max={60} />
             </Card>
 
-            <Card titulo="Fragmento"> 
+            <Card titulo="Fragmento"  color="#E94C6F"> 
                 <Fragmento  />
             </Card>
 
-            <Card titulo="Com parametro">
+            <Card titulo="Com parametro"  color="#E8B71A">
                 <ComParametro
                     titulo="Situação do aluno"
                     aluno="Adriel" nota={8.7}
                 />
             </Card>
 
-            <Card titulo="Primeiro Componente">
+            <Card titulo="Primeiro Componente"  color="#588C73">
                 <Primeiro />
             </Card>
         </div>    

@@ -3,7 +3,8 @@ import React from 'react'
 
 export default (props) => {
     const estilo = {
-        backgroundColor: props.color //|| '#F00'
+        backgroundColor: props.color, //|| '#F00'
+        borderColor: props.color //|| '#F00'
     }
    
     return (
